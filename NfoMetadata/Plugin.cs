@@ -10,7 +10,9 @@ namespace NfoMetadata
 {
     public class Plugin : BasePlugin, IHasThumbImage, IHasWebPages, IHasTranslations
     {
-        private Guid _id = new Guid("E610BA80-9750-47BC-979D-3F0FC86E0081");
+        public const string SaverName = "Nfo Ex";
+        private readonly Guid _id = new Guid("29ab0c5d-1fed-454c-b817-7b1ad5c90391");
+
         public override Guid Id
         {
             get { return _id; }
@@ -23,14 +25,14 @@ namespace NfoMetadata
 
         public static string StaticName
         {
-            get { return "Nfo Metadata"; }
+            get { return $"Nfo Metadata Ex"; }
         }
 
         public override string Description
         {
             get
             {
-                return "Nfo metadata support";
+                return $"Nfo metadata support";
             }
         }
 
@@ -54,14 +56,14 @@ namespace NfoMetadata
             {
                 new PluginPageInfo
                 {
-                    Name = "nfo",
+                    Name = "nfoex",
                     EmbeddedResourcePath = GetType().Namespace + ".Configuration.nfo.html",
                     MenuSection = "server",
                     MenuIcon = "notes"
                 },
                 new PluginPageInfo
                 {
-                    Name = "nfojs",
+                    Name = "nfoexjs",
                     EmbeddedResourcePath = GetType().Namespace + ".Configuration.nfo.js"
                 }
             };

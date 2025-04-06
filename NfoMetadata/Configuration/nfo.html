@@ -1,4 +1,4 @@
-﻿<div is="emby-scroller" class="view flex flex-direction-column scrollFrameY flex-grow" data-horizontal="false" data-forcescrollbar="true" data-centerfocus="true" data-bindheader="true" data-controller="__plugin/nfojs" data-title="Nfo Metadata">
+﻿<div is="emby-scroller" class="view flex flex-direction-column scrollFrameY flex-grow" data-horizontal="false" data-forcescrollbar="true" data-centerfocus="true" data-bindheader="true" data-controller="__plugin/nfoexjs" data-title="Nfo Metadata Ex">
     <div class="scrollSlider flex-grow flex-direction-column padded-left padded-left-page padded-right padded-top-page padded-bottom-page">
 
         <form class="auto-center">
@@ -37,6 +37,20 @@
                     <span>${LabelKodiMetadataPreferMovieNfo}</span>
                 </label>
                 <div class="fieldDescription checkboxFieldDescription">${LabelKodiMetadataPreferMovieNfoHelp}</div>
+            </div>
+            <div class="checkboxContainer checkboxContainer-withDescription">
+                <label>
+                    <input type="checkbox" is="emby-checkbox" class="chkDisableSeasonNfo" />
+                    <span>${LabelNfoDisableSeasonNfo}</span>
+                </label>
+                <div class="fieldDescription checkboxFieldDescription">${LabelNfoDisableSeasonNfoHelp}</div>
+            </div>
+            <div class="checkboxContainer checkboxContainer-withDescription">
+                <label>
+                    <input type="checkbox" is="emby-checkbox" class="chkDisableEpisodeNfo" />
+                    <span>${LabelNfoDisableEpisodeNfo}</span>
+                </label>
+                <div class="fieldDescription checkboxFieldDescription">${LabelNfoDisableEpisodeNfoHelp}</div>
             </div>
             <div><button is="emby-button" type="submit" class="raised button-submit block"><span>${Save}</span></button></div>
         </form>

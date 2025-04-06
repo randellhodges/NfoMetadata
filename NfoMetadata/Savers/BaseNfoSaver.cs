@@ -145,7 +145,7 @@ namespace NfoMetadata.Savers
         {
             get
             {
-                return "Nfo";
+                return Plugin.SaverName;
             }
         }
 
