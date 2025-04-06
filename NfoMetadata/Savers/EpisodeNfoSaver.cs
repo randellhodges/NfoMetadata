@@ -53,6 +53,7 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
+            return false;
             return item is Episode && updateType >= MinimumUpdateType;
         }
 
