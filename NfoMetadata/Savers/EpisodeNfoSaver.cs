@@ -53,7 +53,10 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
-            return false;
+            var options = ConfigurationManager.GetNfoConfiguration();
+            if (options.DisableEpisodeNfo)
+                return false;
+
             return item is Episode && updateType >= MinimumUpdateType;
         }
 

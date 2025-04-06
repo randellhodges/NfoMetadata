@@ -24,7 +24,8 @@ namespace NfoMetadata
         public static int IndexOf(this string val, char srch, StringComparison stringComparison)
         {
             return val.IndexOf(srch);
-        }        public static string Replace(this string str, string oldValue, string newValue, StringComparison comparison)
+        }        
+        public static string Replace(this string str, string oldValue, string newValue, StringComparison comparison)
         {
             var sb = new StringBuilder();
 

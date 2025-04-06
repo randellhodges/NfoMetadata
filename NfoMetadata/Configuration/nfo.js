@@ -1,6 +1,8 @@
 ﻿define(['baseView', 'loading', 'globalize', 'emby-input', 'emby-button', 'emby-select', 'emby-checkbox', 'emby-scroller'], function (BaseView, loading, globalize) {
     'use strict';
 
+    const ConfigurationKey = "XbmcMetadataEx";
+
     function loadPage(page, config) {
 
         ApiClient.getUsers().then(function (users) {
@@ -18,7 +20,10 @@
 
             page.querySelector('.chkSaveImagePaths').checked = config.SaveImagePathsInNfoFiles;
             page.querySelector('.chkEnableExtraThumbs').checked = config.EnableExtraThumbsDuplication;
+
             page.querySelector('.chkPreferMovieNfo').checked = config.PreferMovieNfo;
+            page.querySelector('.chkDisableSeasonNfo').checked = config.DisableSeasonNfo;
+            page.querySelector('.chkDisableEpisodeNfo').checked = config.DisableEpisodeNfo;
 
             loading.hide();
         });
@@ -32,16 +37,19 @@
 
         var form = this;
 
-        ApiClient.getNamedConfiguration("xbmcmetadata").then(function (config) {
+        getConfig().then(function (config) {
 
             config.UserIdForUserData = form.querySelector('.selectUser').value || null;
             config.ReleaseDateFormat = form.querySelector('.selectReleaseDateFormat').value;
 
             config.SaveImagePathsInNfoFiles = form.querySelector('.chkSaveImagePaths').checked;
             config.EnableExtraThumbsDuplication = form.querySelector('.chkEnableExtraThumbs').checked;
-            config.PreferMovieNfo = form.querySelector('.chkPreferMovieNfo').checked;
 
-            ApiClient.updateNamedConfiguration("xbmcmetadata", config).then(Dashboard.processServerConfigurationUpdateResult);
+            config.PreferMovieNfo = form.querySelector('.chkPreferMovieNfo').checked;
+            config.DisableSeasonNfo = form.querySelector('.chkDisableSeasonNfo').checked;
+            config.DisableEpisodeNfo = form.querySelector('.chkDisableEpisodeNfo').checked;
+
+            ApiClient.updateNamedConfiguration(ConfigurationKey, config).then(Dashboard.processServerConfigurationUpdateResult);
         });
 
         // Disable default form submission
@@ -49,8 +57,7 @@
     }
 
     function getConfig() {
-
-        return ApiClient.getNamedConfiguration("xbmcmetadata");
+        return ApiClient.getNamedConfiguration(ConfigurationKey);
     }
 
     function View(view, params) {

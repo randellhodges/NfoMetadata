@@ -43,7 +43,10 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
-            return false;
+            var options = ConfigurationManager.GetNfoConfiguration();
+            if (options.DisableSeasonNfo)
+                return false;
+
             return updateType >= MinimumUpdateType || (updateType >= ItemUpdateType.MetadataImport && FileSystem.FileExists(GetSavePath(item, null)));
         }
 
