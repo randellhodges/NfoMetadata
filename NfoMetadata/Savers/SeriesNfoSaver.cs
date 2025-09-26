@@ -43,7 +43,7 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
-            return item is Series && updateType >= MinimumUpdateType;
+            return item is Series && IsMinimumUpdateType(updateType);
         }
 
         protected override void WriteCustomElements(BaseItem item, XmlWriter writer, int nodeIndex, int numNodes)

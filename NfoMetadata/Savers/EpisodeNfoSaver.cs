@@ -53,7 +53,7 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
-            return item is Episode && updateType >= MinimumUpdateType;
+            return item is Episode && IsMinimumUpdateType(updateType);
         }
 
         private string GetValueToSave(string value, int nodeIndex, int numNodes, string separator, bool allowNull)

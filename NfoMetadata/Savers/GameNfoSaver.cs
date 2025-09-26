@@ -39,7 +39,7 @@ namespace NfoMetadata.Savers
                 return false;
             }
 
-            return item is Game && updateType >= MinimumUpdateType;
+            return item is Game && IsMinimumUpdateType(updateType);
         }
 
         protected override void WriteCustomElements(BaseItem item, XmlWriter writer, int nodeIndex, int numNodes)

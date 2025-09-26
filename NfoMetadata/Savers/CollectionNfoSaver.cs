@@ -37,7 +37,7 @@ namespace NfoMetadata.Savers
 
         public override bool IsEnabledFor(BaseItem item, ItemUpdateType updateType)
         {
-            return item is BoxSet && updateType >= MinimumUpdateType;
+            return item is BoxSet && IsMinimumUpdateType(updateType);
         }
 
         protected override void WriteCustomElements(BaseItem item, XmlWriter writer, int nodeIndex, int numNodes)

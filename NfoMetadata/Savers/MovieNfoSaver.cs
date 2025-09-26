@@ -179,7 +179,7 @@ namespace NfoMetadata.Savers
                 // Avoid running this against things like video backdrops
                 if (!extraType.HasValue || IsSupportedExtraType(extraType.Value))
                 {
-                    return updateType >= MinimumUpdateType;
+                    return IsMinimumUpdateType(updateType);
                 }
             }
 

@@ -121,6 +121,17 @@ namespace NfoMetadata.Savers
             }
         }
 
+        protected bool IsMinimumUpdateType(ItemUpdateType updateType)
+        {
+            // avoid grabbing the config if not needed
+            if (updateType >= ItemUpdateType.MetadataDownload)
+            {
+                return true;
+            }
+
+            return updateType >= MinimumUpdateType;
+        }
+
         public string Name
         {
             get
