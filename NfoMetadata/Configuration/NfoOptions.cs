@@ -8,7 +8,7 @@ namespace NfoMetadata.Configuration
     {
         public static XbmcMetadataOptions GetNfoConfiguration(this IConfigurationManager manager)
         {
-            return manager.GetConfiguration<XbmcMetadataOptions>("xbmcmetadata");
+            return manager.GetConfiguration<XbmcMetadataOptions>(XbmcMetadataOptions.ConfigurationKey);
         }
     }
 
@@ -21,7 +21,7 @@ namespace NfoMetadata.Configuration
                 new ConfigurationStore
                 {
                      ConfigurationType = typeof(XbmcMetadataOptions),
-                     Key = "xbmcmetadata"
+                     Key = XbmcMetadataOptions.ConfigurationKey
                 }
             };
         }

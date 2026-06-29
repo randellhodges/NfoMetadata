@@ -1,4 +1,4 @@
-﻿{
+{
   "HeaderKodiMetadataHelp": "To enable or disable Nfo metadata files, edit a library in Emby library setup and locate the metadata savers section. Changes to metadata settings will only apply to new content added to your library. To apply the changes to existing titles, you'll need to refresh their metadata manually.",
   "LabelKodiMetadataUser": "Save user watch data to nfo's for",
   "LabelKodiMetadataUserHelp": "Enable this to save watch data to Nfo files for other applications to utilize.",
@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "Enable path substitution",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "Enables path substitution of image paths using the server's path substitution settings.",
   "LabelKodiMetadataEnableExtraThumbs": "Copy extrafanart into extrathumbs",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "When downloading images they can be saved into both extrafanart and extrathumbs if needed. This is only recommended if you have other software that requires this."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "When downloading images they can be saved into both extrafanart and extrathumbs if needed. This is only recommended if you have other software that requires this.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "Disable Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Disables creating and reading the season.nfo file",
+  "LabelNfoDisableEpisodeNfo": "Disable Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Disables creating and reading the \"episode name\".nfo file"
 }

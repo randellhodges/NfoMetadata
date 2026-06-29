@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "تفعيل إبدال المسارات",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "فعل إبدال المسارات الخاصة بمسارات الصور مستخدماً إعدادات إبدال المسارات الخاصة بالخادم.",
   "LabelKodiMetadataEnableExtraThumbs": "إنسخ extrafanart إلى extrathumbs",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "عند إنزال الصور بإمكان حفظها إلى extrafanart و extrathumbs لتكون متوافقة مع مظاهر Kodi بأقصى حد."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "عند إنزال الصور بإمكان حفظها إلى extrafanart و extrathumbs لتكون متوافقة مع مظاهر Kodi بأقصى حد.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "Disable Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Disables creating and reading the season.nfo file",
+  "LabelNfoDisableEpisodeNfo": "Disable Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Disables creating and reading the \"episode name\".nfo file"
 }

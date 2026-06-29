@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "Omoguči zamjensku putanju",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "Omogućuje zamjensku putanju putanje slika koristeći serverskih postavka  zamjenske putanje.",
   "LabelKodiMetadataEnableExtraThumbs": "Kopiraj ekstra fanart u ekstra sličicu",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "Prilikom preuzimanja slike mogu biti spremljene u oba ekstra fanart i pomoćnim sličicama za maksimalnu kompatibilnosti Kodi korisničkog sučelja."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "Prilikom preuzimanja slike mogu biti spremljene u oba ekstra fanart i pomoćnim sličicama za maksimalnu kompatibilnosti Kodi korisničkog sučelja.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "Disable Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Disables creating and reading the season.nfo file",
+  "LabelNfoDisableEpisodeNfo": "Disable Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Disables creating and reading the \"episode name\".nfo file"
 }

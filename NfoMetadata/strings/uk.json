@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "Увімкнути заміну шляху",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "Дозволяє замінювати шляхи зображень за допомогою параметрів заміни шляху сервера.",
   "LabelKodiMetadataEnableExtraThumbs": "Копіювати extrafanart до extrathumbs",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "Під час завантаження зображень вони можуть бути збережені як у extrafanart, так і в extrathumbs, якщо необхідно. Рекомендується лише за наявності іншого програмного забезпечення, яке цього вимагає."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "Під час завантаження зображень вони можуть бути збережені як у extrafanart, так і в extrathumbs, якщо необхідно. Рекомендується лише за наявності іншого програмного забезпечення, яке цього вимагає.",
+  "LabelKodiMetadataPreferMovieNfo": "Вибрати movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Читати та зберігати інформацію про фільм як movie.nfo замість \"назва фільму\".nfo",
+  "LabelNfoDisableSeasonNfo": "Вимкнути Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Вимкнює створення та читання файлу season.nfo",
+  "LabelNfoDisableEpisodeNfo": "Вимкнути Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Вимкнює створення та читання файлу \"назва епізоду\".nfo"
 }

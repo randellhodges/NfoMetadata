@@ -9,5 +9,12 @@
   "LabelKodiMetadataEnablePathSubstitution": "Elérési útvonal cseréjének engedélyezése",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "A képek elérési útvonal cseréjének engedélyezése felhasználva a szerver elérési útvonal csere konfigurációját.",
   "LabelKodiMetadataEnableExtraThumbs": "A extrafanart másolása az extrathumbs-ba",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "A képek letöltésekor lehetőség van azokat mind az extrafanart-ba és az extrathumbs-ba is menteni egyúttal a maximális Kodi kinézeti kompabilitáshoz."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "A képek letöltésekor lehetőség van azokat mind az extrafanart-ba és az extrathumbs-ba is menteni egyúttal a maximális Kodi kinézeti kompabilitáshoz.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "Disable Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Disables creating and reading the season.nfo file",
+  "LabelNfoDisableEpisodeNfo": "Disable Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Disables creating and reading the \"episode name\".nfo file"
+
 }

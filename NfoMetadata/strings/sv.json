@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "Aktivera sökvägsutbyte",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "Aktiverar utbyte av sökvägar till bilder enligt serverns inställningar för delad nätverksmapp.",
   "LabelKodiMetadataEnableExtraThumbs": "Kopiera extrafanart till extrathumbs",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "När bilder laddas ned kan de sparas i både extrafanart och extrathumbs om det behövs. Detta rekommenderas endast om du har annan programvara som kräver detta."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "När bilder laddas ned kan de sparas i både extrafanart och extrathumbs om det behövs. Detta rekommenderas endast om du har annan programvara som kräver detta.",
+  "LabelKodiMetadataPreferMovieNfo": "Föredra movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Läs och spara filminformation som movie.nfo istället för \"filmnamn\".nfo",
+  "LabelNfoDisableSeasonNfo": "Inaktivera säsong Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Inaktiverar skapande och läsning av season.nfo-filen",
+  "LabelNfoDisableEpisodeNfo": "Inaktivera avsnitt Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Inaktiverar skapande och läsning av \"avsnittnamn\".nfo-filen"
 }

@@ -9,5 +9,12 @@
   "LabelKodiMetadataEnablePathSubstitution": "Activer la substitution des chemins",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "Active la substitution du chemin des images en utilisant les paramètres de substitution des chemins du serveur.",
   "LabelKodiMetadataEnableExtraThumbs": "Copier les extrafanart dans les extrathumbs",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "Lors du téléchargement d'images, elles peuvent être enregistrées dans extrafanart et extrathumbs si nécessaire. Ceci n'est recommandé que si vous avez d'autres logiciels qui l'exigent."
+  "LabelKodiMetadataEnableExtraThumbsHelp": "Lors du téléchargement d'images, elles peuvent être enregistrées dans extrafanart et extrathumbs si nécessaire. Ceci n'est recommandé que si vous avez d'autres logiciels qui l'exigent.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "D\u00e9sactiver le Nfo de saison",
+  "LabelNfoDisableSeasonNfoHelp": "D\u00e9sactive la cr\u00e9ation et la lecture du fichier season.nfo",
+  "LabelNfoDisableEpisodeNfo": "D\u00e9sactiver le Nfo d'episode",
+  "LabelNfoDisableEpisodeNfoHelp": "D\u00e9sactive la cr\u00e9ation et la lecture du fichier \"nom de l'episode\".nfo"
+
 }

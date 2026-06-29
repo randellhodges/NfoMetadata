@@ -9,5 +9,11 @@
   "LabelKodiMetadataEnablePathSubstitution": "启用路径替换",
   "LabelKodiMetadataEnablePathSubstitutionHelp": "使用服务器的路径替换设置启用图像路径的路径替换。",
   "LabelKodiMetadataEnableExtraThumbs": "将 extrafanart 复制到 extrathumbs 中",
-  "LabelKodiMetadataEnableExtraThumbsHelp": "需要时，可以将下载图像保存到 extrafanart 和 extrathumbs 文件夹中。仅当有其它软件需要此功能时才建议这样做。"
+  "LabelKodiMetadataEnableExtraThumbsHelp": "需要时，可以将下载图像保存到 extrafanart 和 extrathumbs 文件夹中。仅当有其它软件需要此功能时才建议这样做。",
+  "LabelKodiMetadataPreferMovieNfo": "更喜欢 movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "将电影信息另存为 movie.nfo，而不是 \"电影名称\".nfo",
+  "LabelNfoDisableSeasonNfo": "禁用季节 Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "禁用创建和读取 season.nfo 文件",
+  "LabelNfoDisableEpisodeNfo": "禁用剧集 Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "禁用创建和阅读 \"剧集名称\".nfo 文件"
 }

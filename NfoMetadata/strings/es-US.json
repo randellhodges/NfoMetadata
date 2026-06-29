@@ -9,5 +9,11 @@
   "LabelKodiMetadataUserHelp": "Enable this to save watch data to Nfo files for other applications to utilize.",
   "LabelKodiMetadataEnablePathSubstitution": "Enable path substitution",
   "LabelKodiMetadataSaveImagePathsHelp": "This is only recommended if you have other software using the nfo files that requires this.",
-  "LabelKodiMetadataEnablePathSubstitutionHelp": "Enables path substitution of image paths using the server's path substitution settings."
+  "LabelKodiMetadataEnablePathSubstitutionHelp": "Enables path substitution of image paths using the server's path substitution settings.",
+  "LabelKodiMetadataPreferMovieNfo": "Prefer movie.nfo",
+  "LabelKodiMetadataPreferMovieNfoHelp": "Read and save movie info as movie.nfo instead of \"movie name\".nfo",
+  "LabelNfoDisableSeasonNfo": "Disable Season Nfo",
+  "LabelNfoDisableSeasonNfoHelp": "Disables creating and reading the season.nfo file",
+  "LabelNfoDisableEpisodeNfo": "Disable Episode Nfo",
+  "LabelNfoDisableEpisodeNfoHelp": "Disables creating and reading the \"episode name\".nfo file"
 }
